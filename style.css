@@ -1,0 +1,127 @@
+html, body, p {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(bg.jpeg);
+    background-blend-mode: color-burn;
+}
+.frame {
+    background-color: #eee;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 70px;
+}
+header .search input {
+    padding: 10px 20px;
+    width: 400px;
+    border-radius: 30px;
+    border: 2px solid gray;
+}
+header .menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+header .menu ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: inherit;
+}
+header .menu ul a:hover {
+    border-bottom: 2px solid darkred;
+}
+header .buttons button {
+    padding: 14px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    background-color: darkred;
+}
+main nav h1 {
+    color: darkred;
+    font-family: inherit;
+}
+main nav {
+    width: 20%;
+}
+main nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+main nav ul a {
+    text-decoration: none;
+    color: darkred;
+    font-weight: inherit;
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    transition: all .5s ;
+}
+main nav ul a:hover {
+    background-color: #ccc;
+    color: darkred;
+
+}
+main nav ul a .fa {
+    width: 30px;
+    text-align: center;
+}
+main {
+    display: flex;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px;
+    width: 100%;
+}
+.container .card-box {
+    display: flex;
+    gap: 20px;
+}
+.container .card-box .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container .card-box .row {
+    display: flex;
+    gap: 20px;
+}
+.container .card-box img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.container .card-box .row img {
+    height: 100%;
+   
+}
